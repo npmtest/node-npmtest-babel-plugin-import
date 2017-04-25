@@ -1,6 +1,6 @@
 # npmtest-babel-plugin-import
 
-#### test coverage for  babel-plugin-import (v1.1.1)  [![npm package](https://img.shields.io/npm/v/npmtest-babel-plugin-import.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-babel-plugin-import) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-babel-plugin-import.svg)](https://travis-ci.org/npmtest/node-npmtest-babel-plugin-import)
+#### basic test coverage for  babel-plugin-import (v1.1.1)  [![npm package](https://img.shields.io/npm/v/npmtest-babel-plugin-import.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-babel-plugin-import) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-babel-plugin-import.svg)](https://travis-ci.org/npmtest/node-npmtest-babel-plugin-import)
 
 #### Component modular import plugin for babel.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-babel-plugin-import/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-babel-plugin-import/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-babel-plugin-import/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-babel-plugin-import/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-babel-plugin-import/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-babel-plugin-import/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-babel-plugin-import/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-babel-plugin-import/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-babel-plugin-import/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-babel-plugin-import/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-babel-plugin-import/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-babel-plugin-import/build/coverage.html/index.html)
 
@@ -103,7 +103,8 @@
         "lint": "eslint --ext .js src",
         "test": "babel-node node_modules/.bin/babel-istanbul cover node_modules/.bin/_mocha --no-timeouts"
     },
-    "version": "1.1.1"
+    "version": "1.1.1",
+    "bin": {}
 }
 ```
 

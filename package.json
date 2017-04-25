@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  babel-plugin-import (v1.1.1)  [![npm package](https://img.shields.io/npm/v/npmtest-babel-plugin-import.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-babel-plugin-import) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-babel-plugin-import.svg)](https://travis-ci.org/npmtest/node-npmtest-babel-plugin-import)",
+    "description": "#### basic test coverage for  babel-plugin-import (v1.1.1)  [![npm package](https://img.shields.io/npm/v/npmtest-babel-plugin-import.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-babel-plugin-import) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-babel-plugin-import.svg)](https://travis-ci.org/npmtest/node-npmtest-babel-plugin-import)",
     "devDependencies": {
         "babel-plugin-import": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.25"
 }
